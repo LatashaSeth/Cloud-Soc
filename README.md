@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
+I created a miniature honeynet in Azure and established a Security Information and Event Management (SIEM) system using Microsoft Sentinel to generate attack maps, activate alerts, and handle incidents. Additionally, I aggregated log data from multiple sources within a Log Analytics workspace. The main goal was to observe an unsecured environment for a complete day to gather analytical insights. I then hardened the same environment by enforcing various security measures based on the NIST framework to enhance the system's security posture. Following this, I evaluated performance metrics for an additional 24 hours and conducted a comparative analysis of the metrics provided below:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
